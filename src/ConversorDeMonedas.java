@@ -42,10 +42,10 @@ public class ConversorDeMonedas {
 
                     case 2:
                         // Conversión de monedas
-                        System.out.println("Ingrese el código de la moneda de origen (por ejemplo, USD): ");
+                        System.out.println("Ingrese el código de la moneda de origen \n(EUR:Euro -- GBP:Libra esterlina -- JPY:Yen japonés): ");
                         String monedaOrigen = scanner.next().toUpperCase();
 
-                        System.out.println("Ingrese el código de la moneda de destino (por ejemplo, EUR): ");
+                        System.out.println("Ingrese el código de la moneda de destino \n(EUR:Euro -- GBP:Libra esterlina -- JPY:Yen japonés): ");
                         String monedaDestino = scanner.next().toUpperCase();
 
                         if (!tasas.containsKey(monedaOrigen) || !tasas.containsKey(monedaDestino)) {
